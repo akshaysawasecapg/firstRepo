@@ -1,0 +1,12 @@
+package mapReduceDistinctEx;
+
+import java.util.concurrent.Callable;
+
+public class TextCallable implements Callable{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

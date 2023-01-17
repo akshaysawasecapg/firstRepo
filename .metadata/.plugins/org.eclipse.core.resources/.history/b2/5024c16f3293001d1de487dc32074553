@@ -1,0 +1,16 @@
+package concurrentHashMapEx;
+
+import java.util.concurrent.ConcurrentSkipListMap;
+
+public class CurrentSkipEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ConcurrentSkipListMap<Character, String> list = new ConcurrentSkipListMap<>();
+
+		list.put('P', "Petunia");
+		
+	}
+
+}

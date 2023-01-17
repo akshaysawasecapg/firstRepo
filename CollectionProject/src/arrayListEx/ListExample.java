@@ -1,0 +1,35 @@
+package arrayListEx;
+import java.util.*;
+
+public class ListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List numbers = new ArrayList();
+		numbers.add(10);
+		numbers.add(20);
+		numbers.add(30);
+		
+		System.out.println("Size of ArrayList : "+numbers.size());
+		System.out.println("ArrayList Elements : "+numbers);
+		
+		numbers.set(1,50);
+		System.out.println("ArrayList Elements : "+numbers);
+		
+		numbers.add(90);
+		
+		for(Object o : numbers){
+			System.out.println(o);
+		}
+		System.out.println("ArrayList Elements : "+numbers);
+		
+		
+		
+		numbers.remove(2);
+		
+		System.out.println("After removing ArrayList Elements : "+numbers);
+		
+	}
+
+}

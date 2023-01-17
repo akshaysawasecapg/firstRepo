@@ -1,0 +1,11 @@
+package comparatorEx;
+import java.util.*;
+
+public class CollectionExample {
+	
+	public static void main(String args[]){
+		
+		TreeSet<Integer> t = new TreeSet();
+	}
+
+}

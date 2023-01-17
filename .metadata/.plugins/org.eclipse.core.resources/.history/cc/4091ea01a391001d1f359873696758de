@@ -1,0 +1,39 @@
+package lambdaEx;
+import java.util.*;
+import java.util.function.Predicate;
+
+public class SimpleApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Integer> arr = new ArrayList<Integer>();
+		
+		arr.add(12);
+		arr.add(11);
+		arr.add(19);
+		arr.add(23);
+		arr.add(45);
+		arr.add(56);
+		arr.add(78);
+		arr.add(189);
+
+		Predicate<Integer> pr = (p)->{
+				if(p > 100){
+					return true;
+				}else{
+					return false;
+				}
+		};
+		
+		for(int i : arr){
+			if(pr.test(i)){
+				System.out.println("Value greater than 100");
+			}else{
+				System.out.println(i);
+			}
+		}
+		
+	}
+
+}

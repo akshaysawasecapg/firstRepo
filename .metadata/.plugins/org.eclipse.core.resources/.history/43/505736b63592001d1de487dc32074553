@@ -1,0 +1,19 @@
+package lambdaEx;
+import java.util.*;
+
+public class StudentFilterApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Student> studList = new ArrayList<Student>();
+		studList.add(new Student("Peter", 70));
+		studList.add(new Student("Parker", 30));
+		studList.add(new Student("Harry", 90));
+		studList.add(new Student("Potter", 35));
+		studList.add(new Student("Spider", 55));
+		studList.add(new Student("Man", 95));
+
+	}
+
+}

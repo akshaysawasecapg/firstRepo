@@ -1,0 +1,17 @@
+package arrayListEx;
+
+public class Student {
+
+	String studentName;
+	float marks;
+	public Student(String studentName, float marks) {
+		// TODO Auto-generated constructor stub
+		this.studentName = studentName;
+		this.marks = marks;
+	}
+	
+	public String toString(){
+		return "Student Name: "+studentName+" Marks : "+marks; 
+	}
+
+}

@@ -1,0 +1,25 @@
+package arrayListEx;
+
+import java.util.*;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> strList = new ArrayList<String>();
+		
+		strList.add("Tea");
+		strList.add("Coffee");
+		strList.add("Black Coffee");
+		strList.add("Espresso");
+		strList.add("Regular Coffee");
+		
+		System.out.println("Third Element From List is : "+strList.get(3));
+		
+		Set<String> newSet = new HashSet<String>();
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package lambdaEx;
+
+import java.util.ArrayList;
+
+public class ConsumerEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> str = new ArrayList<String>();
+		str.add("Coffee");
+		str.add("Tea");
+		str.add("Espresso");
+		str.add("Black Coffee");
+		str.add("Regular Coffee");
+
+	}
+
+}

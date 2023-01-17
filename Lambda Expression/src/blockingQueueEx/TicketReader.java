@@ -1,0 +1,27 @@
+package blockingQueueEx;
+
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class TicketReader implements Runnable{
+	
+	CopyOnWriteArrayList<Ticket> cow;
+
+	public TicketReader(CopyOnWriteArrayList<Ticket> cow) {
+		// TODO Auto-generated constructor stub
+		this.cow = cow;
+	}
+	
+	public void run(){
+		try{
+			Thread.sleep(2000);
+		}catch(Exception e){
+			System.out.println(e);
+		}
+		for(Ticket tick : cow){
+			System.out.println(tick);
+			
+		}
+	}
+	
+
+}

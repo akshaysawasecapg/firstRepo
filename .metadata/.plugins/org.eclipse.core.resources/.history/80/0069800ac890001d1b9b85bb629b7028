@@ -1,0 +1,13 @@
+package comparatorEx;
+
+public class Revenu {
+	
+	String revenuName;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

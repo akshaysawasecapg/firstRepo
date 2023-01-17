@@ -1,0 +1,16 @@
+package lambdaEx;
+
+import java.util.function.Predicate;
+
+public class PredicateEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Predicate<String> pr = (fi)->{
+			System.out.println(fi);
+		};
+
+	}
+
+}

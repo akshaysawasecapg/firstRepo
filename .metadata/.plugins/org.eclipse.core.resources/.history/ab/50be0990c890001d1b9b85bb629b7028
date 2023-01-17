@@ -1,0 +1,20 @@
+package comparatorEx;
+
+import java.util.Comparator;
+
+public class Revenue implements Comparator<Revenue> {
+
+	
+	String revenueName;
+	float amount;
+	public Revenue(String revenueName, float amount) {
+		// TODO Auto-generated constructor stub
+		this.revenueName = revenueName;
+		this.amount = amount;
+	}
+	
+	public String toString(){
+		return "Revenue Name : "+revenueName+" Amount : "+amount; 
+	}
+
+}

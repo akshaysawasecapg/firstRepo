@@ -1,0 +1,23 @@
+package arrayListEx;
+import java.util.*;
+
+public class QueueExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Queue que = new ArrayDeque();
+		
+		que.add(20);
+		que.add(90);
+		que.add(120);
+		que.add(11);
+		que.add(100);
+		
+		System.out.println(que);
+		System.out.println(que.remove());
+		
+		
+	}
+
+}

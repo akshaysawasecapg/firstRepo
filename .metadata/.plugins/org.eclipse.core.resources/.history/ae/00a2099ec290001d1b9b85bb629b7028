@@ -1,0 +1,18 @@
+package arrayListEx;
+import java.util.*;
+
+public class StudentCompare {
+
+	public StudentCompare() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		TreeSet <Student> set = new TreeSet<Student>();
+	}
+	
+	
+
+}

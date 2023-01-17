@@ -1,0 +1,30 @@
+package blockingQueueEx;
+
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class Ticket implements Runnable {
+
+	String source;
+	String destination;
+	float price;
+	CopyOnWriteArrayList<Ticket> cow;
+	
+	public Ticket(String source, String destination, float price, CopyOnWriteArrayList<Ticket> cow) {
+		// TODO Auto-generated constructor stub
+		this.source = source;
+		this.destination = destination;
+		this.price = price;
+		this.cow = cow;
+	}
+	
+	public void run(){
+		for(int i=0; i<5; i++){
+			System.out.println(cow.get(i));
+		}
+	}
+	
+	public String toString(){
+		return "Source : "+source+" Destination : "+destination+" Price : "+price;
+	}
+
+}

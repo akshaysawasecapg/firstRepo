@@ -1,0 +1,9 @@
+package blockingQueueEx;
+
+public class TicketReader {
+
+	public TicketReader() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

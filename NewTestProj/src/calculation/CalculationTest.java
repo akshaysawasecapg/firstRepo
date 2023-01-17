@@ -1,0 +1,14 @@
+package calculation;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculationTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

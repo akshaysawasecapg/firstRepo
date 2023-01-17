@@ -1,0 +1,16 @@
+package blockingQueueEx;
+
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class TicketApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CopyOnWriteArrayList tick = CopyOnWriteArrayList();
+		
+		
+
+	}
+
+}

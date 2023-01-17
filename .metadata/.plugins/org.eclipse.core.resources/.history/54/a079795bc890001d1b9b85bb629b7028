@@ -1,0 +1,9 @@
+package comparatorEx;
+
+public class Revenue {
+
+	public Revenue() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

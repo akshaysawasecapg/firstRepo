@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/junit-jupiter-params-5.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/junit-jupiter-migrationsupport-5.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/junit-jupiter-api-5.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/junit-jupiter-5.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/junit-jupiter-engine-5.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/junit-platform-testkit-1.9.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/jar_files.zip"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/jar_files/opentest4j-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/jar_files (1)/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASAWASE/Downloads/jar_files (1)/junit-platform-commons-1.9.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

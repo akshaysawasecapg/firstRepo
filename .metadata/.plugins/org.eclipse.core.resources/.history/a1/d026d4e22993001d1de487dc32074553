@@ -1,0 +1,45 @@
+package blockingQueueEx;
+
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class TicketApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CopyOnWriteArrayList tick = new CopyOnWriteArrayList();
+		
+		Ticket t1 = new Ticket("UK","Austrailia",3000);
+		TicketWrite tw = new TicketWrite(tick);
+		TicketReader tr = new TicketReader(tick);
+		
+		
+		Ticket t2 = new Ticket("UK","Dubai",4500);
+		TicketWrite tw1 = new TicketWrite(tick);
+		TicketReader tr1 = new TicketReader(tick);
+		
+		Ticket t3 = new Ticket("UK","Sri Lanka",9000);
+		TicketWrite tw2 = new TicketWrite(tick, t3);
+		TicketReader tr2 = new TicketReader(tick);
+		
+//		Ticket t4 = new Ticket("UK","India",10000);
+//		Ticket t5 = new Ticket("UK","Japan",300);
+
+		Thread th1 = new Thread(tw);
+		Thread th2 = new Thread(tr);
+		Thread th3 = new Thread(tw1);
+		Thread th4 = new Thread(tr1);
+		Thread th5 = new Thread(tw2);
+		Thread th6 = new Thread(tr2);
+//		
+		th1.start();
+		th2.start();
+		th3.start();
+		th4.start();
+		th5.start();
+		th6.start();
+		
+
+	}
+
+}

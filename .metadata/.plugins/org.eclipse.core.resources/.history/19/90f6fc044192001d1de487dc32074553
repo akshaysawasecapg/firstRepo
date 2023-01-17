@@ -1,0 +1,16 @@
+package mapReduceDistinctEx;
+
+import java.util.stream.Stream;
+
+public class GenerateNoEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Stream<Integer> noStream = Stream.iterate(1, (a)->a = a+1).limit(100);
+		
+		noStream.forEach(System.out::println);
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package concurrentHashMapEx;
+
+import java.util.Iterator;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class CHashMapEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ConcurrentHashMap<String, Integer> ch = new ConcurrentHashMap<String, Integer>();
+		
+		ch.put("Thomas",12);
+		ch.put("William",32);
+		ch.put("Samuel",53);
+		ch.put("Erric",62);
+		ch.put("Maurice",13);
+		ch.put("Henry",23);
+		
+		Iterator<ConcurrentHashMap.Entry<String, Integer>> itr = ch.entrySet().iterator();
+		
+		while(itr.hasNext()){
+			ConcurrentHashMap.Entry<String, Integer> entry = itr.next();
+			System.out.print(" "+entry);
+		}
+		System.out.println();
+		
+		ch.putIfAbsent("Jacob R Tanning", 14);
+		
+		System.out.println(ch);
+		
+		ch.compute("Erric", (a,b)->b+1000);
+		
+		System.out.println(ch);
+	}
+
+}

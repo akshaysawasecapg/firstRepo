@@ -1,0 +1,23 @@
+package arrayListEx;
+import java.util.*;
+
+
+public class SetExample {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Set newSet = new HashSet();
+		
+		newSet.add(30);
+		newSet.add(88);
+		newSet.add(900);
+		newSet.add(11);
+		
+		System.out.println(newSet);
+		
+		
+	}
+
+}

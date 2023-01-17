@@ -1,0 +1,15 @@
+package lambdaEx;
+
+public class SimpleApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		SimpleInterestClassEx si = new SimpleInterestClassEx();
+		
+		Interest intrest = si::simpleCal;
+		intrest.calculate(12000, 3, 4);
+
+	}
+
+}

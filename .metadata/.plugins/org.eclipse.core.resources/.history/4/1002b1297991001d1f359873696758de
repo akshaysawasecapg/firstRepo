@@ -1,0 +1,25 @@
+package lambdaEx;
+
+import java.util.ArrayList;
+import java.util.function.Predicate;
+
+public class PredicateEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Predicate<String> pr = (fi)->{
+//			System.out.println(true);
+			return true;
+		};
+		
+		ArrayList<String> userPass = new ArrayList<String>();
+		userPass.add("sam-pass123");
+		userPass.add("Peter-password123");
+		userPass.add("sam-password123");
+		userPass.add("sam-pass123");
+		userPass.add("sam-pass123");
+		
+	}
+
+}

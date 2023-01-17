@@ -1,0 +1,28 @@
+package mapReduceDistinctEx;
+
+public class Product {
+	String itemName;
+	float price;
+	float quantity;
+
+	public Product(String itemName, float price, float quantity) {
+		// TODO Auto-generated constructor stub
+		this.itemName = itemName;
+		this.price = price;
+		this.quantity = quantity;
+	}
+}
+
+
+package mapReduceDistinctEx;
+
+public class Student {
+	
+
+	
+	
+	public String toString(){
+		return ""
+	}
+
+}

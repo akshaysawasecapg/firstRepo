@@ -1,0 +1,18 @@
+package arrayListEx;
+import java.util.*;
+
+public class ListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List numbers = new ArrayList();
+		numbers.add(10);
+		numbers.add(20);
+		numbers.add(30);
+		
+		System.out.println("Size of ArrayList : "+numbers.size());
+		
+	}
+
+}

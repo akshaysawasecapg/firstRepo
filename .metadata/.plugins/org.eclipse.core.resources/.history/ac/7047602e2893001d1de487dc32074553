@@ -1,0 +1,14 @@
+package blockingQueueEx;
+
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class TicketReader {
+	
+	CopyOnWriteArrayList cow;
+
+	public TicketReader(CopyOnWriteArrayList cow) {
+		// TODO Auto-generated constructor stub
+		this.cow = cow;
+	}
+
+}

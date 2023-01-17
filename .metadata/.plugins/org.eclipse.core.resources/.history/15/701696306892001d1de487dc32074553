@@ -1,0 +1,26 @@
+package mapReduceDistinctEx;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.concurrent.Callable;
+
+public class TextCallable implements Callable{
+	List<String> itemList = new LinkedList<String>();
+
+	@Override
+	public Object call() throws Exception {
+		// TODO Auto-generated method stub
+		itemList.add("Coffee");
+		itemList.add("Tea");
+		itemList.add("Espresso");
+		itemList.add("Regular Coffee");
+		
+		return itemList;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+}

@@ -1,0 +1,9 @@
+package blockingQueueEx;
+
+public class TicketWrite {
+
+	public TicketWrite() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

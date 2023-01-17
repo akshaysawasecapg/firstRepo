@@ -1,0 +1,25 @@
+package comparatorEx;
+import java.util.*;
+
+public class CollectionExample {
+	
+	public static void main(String args[]){
+		
+		TreeSet<Integer> t = new TreeSet();
+		
+		t.add(23);
+		t.add(45);
+		t.add(11);
+		t.add(19);
+		t.add(55);
+		t.add(22);
+		t.add(18);
+		t.add(32);
+		
+		System.out.println("Higher than 20 is "+t.ceiling(20));
+		System.out.println("Lower than 15 is "+t.floor(15));
+		System.out.println("Strictly Higher than 50 is "+t.higher(50));
+		
+	}
+
+}

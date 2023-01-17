@@ -1,0 +1,18 @@
+package comparatorEx;
+import java.util.*;
+
+public class CollectionExample {
+	
+	public static void main(String args[]){
+		
+		TreeSet<Integer> t = new TreeSet();
+		
+		t.add(23);
+		t.add(23);
+		t.add(23);
+		t.add(23);
+		t.add(23);
+		t.add(23);
+	}
+
+}

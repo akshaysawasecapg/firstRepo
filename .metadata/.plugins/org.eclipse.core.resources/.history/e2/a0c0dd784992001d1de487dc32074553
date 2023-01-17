@@ -1,0 +1,28 @@
+package mapReduceDistinctEx;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.*;
+
+public class ProductApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Product> pl = new ArrayList<>();
+		
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+		pl.add(new Product("BMW",40000,2));
+
+	}
+
+}
